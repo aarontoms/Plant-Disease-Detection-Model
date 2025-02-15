@@ -3,3 +3,5 @@ FullDataset
 backups
 pics
 mine.py
+*.h5
+*.keras

@@ -23,11 +23,3 @@ else:
     print(f"Predicted class: {predicted_class[0]} with confidence {confidence}")
 
 # print(f"Predicted class: {predicted_class[0]}")
-
-{
-    "disease": "Healthy Tomato Leaf",
-    "symptoms": "No visible signs of disease; leaves are green, firm, and show no signs of damage or discoloration.",
-    "causes": "Proper growing conditions, including adequate sunlight, water, nutrients, and pest/disease control.",
-    "longTermSteps": "Maintain healthy soil through regular fertilization and amendment. Practice crop rotation to prevent soilborne diseases. Choose disease-resistant tomato varieties. Ensure proper spacing for good air circulation.",
-    "shortTermSteps": "Monitor plants regularly for any signs of disease or pest infestation. Provide adequate watering and fertilization as needed. Prune away any damaged or dead leaves.",
-}
