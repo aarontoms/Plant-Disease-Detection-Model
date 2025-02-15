@@ -62,7 +62,7 @@ model = models.Sequential([
     layers.Dense(len(os.listdir(train_dir)), activation='softmax')
 ])
 
-model.compile(optimizer=keras.optimizers.Adam(learning_rate=0.00001), loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+model.compile(optimizer=keras.optimizers.Adam(learning_rate=0.0001), loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 
 history = model.fit(
     train_ds,
@@ -70,7 +70,7 @@ history = model.fit(
     epochs=15,
 )
 
-model.save('model/tomato_inception.keras')
+model.save('model/cassava_inception.h5')
 
 test_loss, test_acc = model.evaluate(test_ds)
 print(f"Test Accuracy: {test_acc}")

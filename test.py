@@ -30,3 +30,5 @@ train_ds = datagen.flow_from_directory(
     class_mode="sparse",
 )
 print(train_ds.class_indices)
+
+# print("Number of GPUs Available: ", len(tf.config.experimental.list_physical_devices('GPU')))
