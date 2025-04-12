@@ -1,3 +1,6 @@
+// for testing purpose only
+// this code is not relevant ignore it
+
 from google import genai
 import os
 import PIL.Image
